@@ -19,14 +19,14 @@ The file `prefs` maps colors in the scheme to semantic names, `CS_GIT_CLEAN` etc
 
 * Render the folder and branch into PS1
 * Color the branch according to whether it is dirty
+* Color the path according to whether the folder is writable
+* Indicators for ahead and behind
+* Recurse so that you can show writable folder inside readonly folder
+* return status indicator
 
 ## TO-DO
 
-* Color the path according to whether the folder is writable
-* Indicators for ahead and behind
+* Today, you have to cd into the repo folder for sourcing it to work.  Review and revise for useability.
 
 ## TO-THINK-ABOUT
 
-* If I want to indicate uncommitted changes, there are lots of kinds: new on disk, added in index, changed on disk, changed in index, removed on disk, removed in index... what is needed and how to represent it?
-
-* 
